@@ -1,8 +1,6 @@
 CC = solc
 SOURCE = Contract_1
 
-#all: appname
-
 $(SOURCE): $(SOURCE).sol
 	$(CC) -o Target --bin --abi $(SOURCE).sol
 
